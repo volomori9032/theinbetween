@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "theinbetween",
+	"version": "${version}",
+	"name": "The Inbetween",
+	"description": "Practice mod for mc phase",
+	"authors": [
+		"ScaryCat105"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/volomori9032/the-inbetween"
+	},
+	"license": "MIT",
+	"icon": "assets/theinbetween/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.scarycat105.theinbetween.TheInbetween"
+		],
+		"fabric-datagen": [
+			"net.scarycat105.theinbetween.TheInbetweenDataGenerator"
+		],
+		"client": [
+			"net.scarycat105.theinbetween.TheInbetweenClient"
+		]
+	},
+	"mixins": [
+		"theinbetween.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
