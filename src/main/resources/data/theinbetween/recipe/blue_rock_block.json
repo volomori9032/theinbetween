@@ -1,0 +1,18 @@
+{
+  "type": "crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "theinbetween:blue_rock"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "theinbetween:blue_rock_block"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "theinbetween:pink_rock"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "theinbetween:pink_rock_block"
+  }
+}

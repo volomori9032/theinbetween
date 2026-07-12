@@ -1,0 +1,13 @@
+{
+  "type": "crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "theinbetween:blue_rock_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "theinbetween:blue_rock"
+  }
+}
