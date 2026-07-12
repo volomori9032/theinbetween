@@ -3,5 +3,8 @@
   "item.theinbetween.pink_rock": "Pink Rock",
 
   "block.theinbetween.blue_rock_block": "Block of Blue Rock",
-  "block.theinbetween.pink_rock_block": "Block of Pink Rock"
+  "block.theinbetween.pink_rock_block": "Block of Pink Rock",
+
+  "itemgroup.theinbetween.rock_items": "Rock Items",
+  "itemgroup.theinbetween.rock_blocks": "Rock Blocks"
 }
