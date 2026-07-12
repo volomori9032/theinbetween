@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "theinbetween:item/floating_rock"
+    "layer0": "theinbetween:item/blue_rock"
   }
 }
