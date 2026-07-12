@@ -1,4 +1,7 @@
 {
-  "item.theinbetween.floating_rock": "Floating Rock",
-  "item.theinbetween.purple_floating_rock": "Purple Floating Rock"
+  "item.theinbetween.blue_rock": "Blue Rock",
+  "item.theinbetween.pink_rock": "Pink Rock",
+
+  "block.theinbetween.blue_rock_block": "Block of Blue Rock",
+  "block.theinbetween.pink_rock_block": "Block of Pink Rock"
 }
