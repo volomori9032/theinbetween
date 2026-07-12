@@ -5,6 +5,7 @@ import net.fabricmc.api.ModInitializer;
 import net.minecraft.util.Identifier;
 
 import net.scarycat105.theinbetween.block.ModBlocks;
+import net.scarycat105.theinbetween.item.ModItemGroups;
 import net.scarycat105.theinbetween.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -15,6 +16,7 @@ public class TheInbetween implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 	}
