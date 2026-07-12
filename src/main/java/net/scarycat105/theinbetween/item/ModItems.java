@@ -12,8 +12,8 @@ import net.scarycat105.theinbetween.TheInbetween;
 
 public class ModItems {
 
-    public static final Item FLOATING_ROCK = register(new Item(new Item.Settings()), "floating_rock");
-    public static final Item PURPLE_FLOATING_ROCK = register(new Item(new Item.Settings()), "purple_floating_rock");
+    public static final Item BLUE_ROCK = register(new Item(new Item.Settings()), "blue_rock");
+    public static final Item PINK_ROCK = register(new Item(new Item.Settings()), "pink_rock");
 
 
     public static Item register(Item item, String id) {
@@ -32,10 +32,11 @@ public class ModItems {
     }
 
     public static void registerModItems() {
+        TheInbetween.LOGGER.info("Registering Mod Items for " + TheInbetween.MOD_ID);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(itemGroup -> {
-            itemGroup.add(ModItems.FLOATING_ROCK);
-            itemGroup.add(ModItems.PURPLE_FLOATING_ROCK);
+            itemGroup.add(ModItems.BLUE_ROCK);
+            itemGroup.add(ModItems.PINK_ROCK);
         });
     }
 }
