@@ -1,0 +1,13 @@
+{
+  "type": "crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "theinbetween:block_of_oscruim"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "theinbetween:oscruim_ingot"
+  }
+}

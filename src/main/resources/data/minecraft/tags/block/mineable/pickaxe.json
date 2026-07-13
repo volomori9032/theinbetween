@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "theinbetween:pink_rock",
+    "theinbetween:blue_rock",
+    "theinbetween:cobbled_pink_rock",
+    "theinbetween:cobbled_blue_rock",
+    "theinbetween:deepslate_wind_ore",
+    "theinbetween:wind_ore",
+    "theinbetween:deepslate_oscruim_ore",
+    "theinbetween:oscruim_ore",
+    "theinbetween:block_of_oscruim",
+    "theinbetween:block_of_wind"
+  ]
+}

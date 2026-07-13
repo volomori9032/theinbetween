@@ -1,0 +1,52 @@
+{
+  "type": "block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "alternatives",
+          "children": [
+            {
+              "type": "item",
+              "conditions": [
+                {
+                  "condition": "match_tool",
+                  "predicate": {
+                    "predicates": {
+                      "enchantments": [
+                        {
+                          "enchantments": "silk_touch",
+                          "levels": {
+                            "min": 1
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "name": "theinbetween:wind_ore"
+            },
+            {
+              "type": "item",
+              "functions": [
+                {
+                  "enchantment": "fortune",
+                  "formula": "ore_drops",
+                  "function": "apply_bonus"
+                },
+                {
+                  "function": "survives_explosion"
+                }
+              ],
+              "name": "theinbetween:raw_wind_ore"
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "theinbetween:blocks/wind_ore"
+}

@@ -23,6 +23,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.DEEPSLATE_OSCRUIM_ORE);
                         entries.add(ModItems.RAW_OSCRUIM_ORE);
                         entries.add(ModItems.OSCRUIM_INGOT);
+                        entries.add(ModBlocks.BLOCK_OF_OSCRUIM);
 
 
                     }).build());
@@ -38,6 +39,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.DEEPSLATE_WIND_ORE);
                         entries.add(ModItems.RAW_WIND_ORE);
                         entries.add(ModItems.WIND_INGOT);
+                        entries.add(ModBlocks.BLOCK_OF_WIND);
 
                     }).build());
 

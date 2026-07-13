@@ -1,0 +1,13 @@
+{
+  "type": "smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.2,
+  "group": "wind_ingot",
+  "ingredient": {
+    "item": "theinbetween:raw_wind_ore"
+  },
+  "result": {
+    "id": "theinbetween:wind_ingot"
+  }
+}

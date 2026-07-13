@@ -1,0 +1,20 @@
+{
+  "type": "block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "item",
+          "name": "block_of_oscruim"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

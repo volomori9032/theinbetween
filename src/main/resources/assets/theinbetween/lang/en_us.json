@@ -12,6 +12,8 @@
   "block.theinbetween.oscruim_ore": "Oscruim Ore",
   "block.theinbetween.deepslate_wind_ore": "Deepslate Wind Ore",
   "block.theinbetween.deepslate_oscruim_ore": "Deepslate Oscruim Ore",
+  "block.theinbetween.block_of_wind": "Block of Wind",
+  "block.theinbetween.block_of_oscruim": "Block of Oscruim",
 
   "itemgroup.theinbetween.blue_items": "Blue Items",
   "itemgroup.theinbetween.pink_items": "Pink Items"

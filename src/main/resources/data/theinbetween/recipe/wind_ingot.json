@@ -1,0 +1,13 @@
+{
+  "type": "crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "theinbetween:block_of_wind"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "theinbetween:wind_ingot"
+  }
+}

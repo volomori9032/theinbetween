@@ -1,0 +1,46 @@
+{
+  "type": "block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "alternatives",
+          "children": [
+            {
+              "type": "item",
+              "conditions": [
+                {
+                  "condition": "match_tool",
+                  "predicate": {
+                    "predicates": {
+                      "enchantments": [
+                        {
+                          "enchantments": "silk_touch",
+                          "levels": {
+                            "min": 1
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "name": "theinbetween:blue_rock"
+            },
+            {
+              "type": "item",
+              "conditions": [
+                {
+                  "condition": "explosion_decay"
+                }
+              ],
+              "name": "theinbetween:cobbled_blue_rock"
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

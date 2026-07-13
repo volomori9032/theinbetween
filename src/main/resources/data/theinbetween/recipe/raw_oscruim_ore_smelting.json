@@ -1,0 +1,13 @@
+{
+  "type": "smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.2,
+  "group": "oscruim_ingot",
+  "ingredient": {
+    "item": "theinbetween:raw_oscruim_ore"
+  },
+  "result": {
+    "id": "theinbetween:oscruim_ingot"
+  }
+}

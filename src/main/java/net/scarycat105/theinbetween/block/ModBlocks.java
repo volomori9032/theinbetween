@@ -2,12 +2,14 @@ package net.scarycat105.theinbetween.block;
 
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.ExperienceDroppingBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.scarycat105.theinbetween.TheInbetween;
 
 public class ModBlocks {
@@ -35,29 +37,50 @@ public class ModBlocks {
             .sounds(BlockSoundGroup.STONE)),
             "cobbled_pink_rock");
 
-    public static final Block WIND_ORE = registerBlock(new Block(AbstractBlock.Settings.create()
-            .strength(4f)
-            .requiresTool()
-            .sounds(BlockSoundGroup.STONE)),
-            "wind_ore");
+    public static final Block WIND_ORE = registerBlock(
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
+                    AbstractBlock.Settings.create()
+                    .strength(4f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.STONE)),
+                    "wind_ore");
 
-    public static final Block OSCRUIM_ORE = registerBlock(new Block(AbstractBlock.Settings.create()
-            .strength(4f)
-            .requiresTool()
-            .sounds(BlockSoundGroup.STONE)),
-            "oscruim_ore");
+    public static final Block OSCRUIM_ORE = registerBlock(
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
+                    AbstractBlock.Settings.create()
+                    .strength(4f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.STONE)),
+                    "oscruim_ore");
 
-    public static final Block DEEPSLATE_WIND_ORE = registerBlock(new Block(AbstractBlock.Settings.create()
-            .strength(4f)
-            .requiresTool()
-            .sounds(BlockSoundGroup.STONE)),
-            "deepslate_wind_ore");
+    public static final Block DEEPSLATE_WIND_ORE = registerBlock(
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
+                    AbstractBlock.Settings.create()
+                    .strength(4f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.DEEPSLATE)),
+                    "deepslate_wind_ore");
 
-    public static final Block DEEPSLATE_OSCRUIM_ORE = registerBlock(new Block(AbstractBlock.Settings.create()
+    public static final Block DEEPSLATE_OSCRUIM_ORE = registerBlock(
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
+                    AbstractBlock.Settings.create()
+                    .strength(4f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.DEEPSLATE)),
+                    "deepslate_oscruim_ore");
+
+    public static final Block BLOCK_OF_OSCRUIM = registerBlock(new Block(AbstractBlock.Settings.create()
             .strength(4f)
             .requiresTool()
             .sounds(BlockSoundGroup.STONE)),
-            "deepslate_oscruim_ore");
+            "block_of_oscruim");
+
+    public static final Block BLOCK_OF_WIND = registerBlock(new Block(AbstractBlock.Settings.create()
+             .strength(4f)
+             .requiresTool()
+             .sounds(BlockSoundGroup.STONE)),
+            "block_of_wind");
+
 
 
     private static Block registerBlock(Block block, String name) {

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "theinbetween:deepslate_wind_ore",
+    "theinbetween:wind_ore",
+    "theinbetween:deepslate_oscruim_ore",
+    "theinbetween:oscruim_ore"
+  ]
+}
