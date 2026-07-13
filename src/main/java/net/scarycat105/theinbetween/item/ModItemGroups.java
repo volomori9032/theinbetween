@@ -15,7 +15,7 @@ public class ModItemGroups {
     public static final ItemGroup ROCK_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(TheInbetween.MOD_ID, "pink_items"),
             FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.PINK_ROCK))
-                    .displayName(Text.translatable("itemgroup.theinbetween.rock_items"))
+                    .displayName(Text.translatable("Pink Items"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.PINK_ROCK);
                         entries.add(ModBlocks.COBBLED_PINK_ROCK);
@@ -30,7 +30,7 @@ public class ModItemGroups {
     public static final ItemGroup ROCK_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(TheInbetween.MOD_ID, "blue_items"),
             FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.BLUE_ROCK))
-                    .displayName(Text.translatable("itemgroup.theinbetween.rock_blocks"))
+                    .displayName(Text.translatable("Blue Items"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.BLUE_ROCK);
                         entries.add(ModBlocks.COBBLED_BLUE_ROCK);
