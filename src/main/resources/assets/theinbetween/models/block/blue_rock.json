@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "theinbetween:block/blue_rock_block"
+    "all": "theinbetween:block/blue_rock"
   }
 }

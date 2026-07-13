@@ -1,10 +1,18 @@
 {
-  "item.theinbetween.blue_rock": "Blue Rock",
-  "item.theinbetween.pink_rock": "Pink Rock",
+  "item.theinbetween.raw_oscruim_ore": "Raw Oscruim Ore",
+  "item.theinbetween.raw_wind_ore": "Raw Wind Ore",
+  "item.theinbetween.oscruim_ingot": "Oscruim Ingot",
+  "item.theinbetween.wind_ingot": "Wind Ingot",
 
-  "block.theinbetween.blue_rock_block": "Block of Blue Rock",
-  "block.theinbetween.pink_rock_block": "Block of Pink Rock",
+  "block.theinbetween.blue_rock": "Blue Rock",
+  "block.theinbetween.pink_rock": "Pink Rock",
+  "block.theinbetween.cobbled_blue_rock": "Cobbled Blue Rock",
+  "block.theinbetween.cobbled_pink_rock": "Cobbled Pink Rock",
+  "block.theinbetween.wind_ore": "Wind Ore",
+  "block.theinbetween.oscruim_ore": "Oscruim Ore",
+  "block.theinbetween.deepslate_wind_ore": "Deepslate Wind Ore",
+  "block.theinbetween.deepslate_oscruim_ore": "Deepslate Oscruim Ore",
 
-  "itemgroup.theinbetween.rock_items": "Rock Items",
-  "itemgroup.theinbetween.rock_blocks": "Rock Blocks"
+  "itemgroup.theinbetween.blue_items": "Blue Items",
+  "itemgroup.theinbetween.pink_items": "Pink Items"
 }

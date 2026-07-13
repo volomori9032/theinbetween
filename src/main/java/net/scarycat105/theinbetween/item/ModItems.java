@@ -12,8 +12,10 @@ import net.scarycat105.theinbetween.TheInbetween;
 
 public class ModItems {
 
-    public static final Item BLUE_ROCK = register(new Item(new Item.Settings()), "blue_rock");
-    public static final Item PINK_ROCK = register(new Item(new Item.Settings()), "pink_rock");
+    public static final Item RAW_WIND_ORE = register(new Item(new Item.Settings()), "raw_wind_ore");
+    public static final Item RAW_OSCRUIM_ORE = register(new Item(new Item.Settings()), "raw_oscruim_ore");
+    public static final Item WIND_INGOT = register(new Item(new Item.Settings()), "wind_ingot");
+    public static final Item OSCRUIM_INGOT = register(new Item(new Item.Settings()), "oscruim_ingot");
 
 
     public static Item register(Item item, String id) {
@@ -31,12 +33,9 @@ public class ModItems {
     private static void initialize() {
     }
 
+
     public static void registerModItems() {
         TheInbetween.LOGGER.info("Registering Mod Items for " + TheInbetween.MOD_ID);
-
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(itemGroup -> {
-            itemGroup.add(ModItems.BLUE_ROCK);
-            itemGroup.add(ModItems.PINK_ROCK);
-        });
     }
+
 }
