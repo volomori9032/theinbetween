@@ -30,9 +30,9 @@
             },
             {
               "type": "item",
-              "conditions": [
+              "functions": [
                 {
-                  "condition": "explosion_decay"
+                  "function": "explosion_decay"
                 }
               ],
               "name": "theinbetween:cobbled_pink_rock"

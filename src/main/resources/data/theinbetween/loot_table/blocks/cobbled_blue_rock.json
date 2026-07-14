@@ -3,15 +3,15 @@
   "pools": [
     {
       "bonus_rolls": 0.0,
-      "conditions": [
+      "functions": [
         {
-          "condition": "explosion_decay"
+          "function": "explosion_decay"
         }
       ],
       "entries": [
         {
           "type": "item",
-          "name": "cobbled_blue_rock"
+          "name": "theinbetween:cobbled_blue_rock"
         }
       ],
       "rolls": 1.0

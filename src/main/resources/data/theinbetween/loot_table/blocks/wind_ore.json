@@ -34,10 +34,10 @@
                 {
                   "enchantment": "fortune",
                   "formula": "ore_drops",
-                  "function": "apply_bonus"
+                  "function": "minecraft:apply_bonus"
                 },
                 {
-                  "function": "survives_explosion"
+                  "function": "explosion_decay"
                 }
               ],
               "name": "theinbetween:raw_wind_ore"
@@ -47,6 +47,5 @@
       ],
       "rolls": 1.0
     }
-  ],
-  "random_sequence": "theinbetween:blocks/wind_ore"
+  ]
 }
