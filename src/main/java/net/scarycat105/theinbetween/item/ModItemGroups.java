@@ -43,6 +43,15 @@ public class ModItemGroups {
 
                     }).build());
 
+    public static final ItemGroup ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(TheInbetween.MOD_ID, "other_items"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.CHISEL))
+                    .displayName(Text.translatable("Other Items"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModItems.CHISEL);
+
+                    }).build());
+
     public static void registerItemGroups() {
         TheInbetween.LOGGER.info("Registering Item Groups for " + TheInbetween.MOD_ID);
     }
